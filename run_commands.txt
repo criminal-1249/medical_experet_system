@@ -1,0 +1,15 @@
+compile command :
+
+javac -cp ".;lib\mysql-connector-j-9.6.0.jar" -d . gui_part\*.java patient_gui\*.java admin_gui\*.java Main.java
+
+run command :
+
+java -cp ".;lib\mysql-connector-j-9.6.0.jar" Main                                            
+
+for api :
+
+{activat the virtual env}
+
+cd prediction_model
+
+uvicorn app:app
